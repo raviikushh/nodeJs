@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-// fs.writeFile('hello.txt', 'Hello world!',(err)=>{
+// fs.writeFile('./copy/hello.txt', 'Hello world!',(err)=>{
 //     if(err) console.log(err, "Error in writing file")
 //     else console.log('File written successfully');
 // })
@@ -40,10 +40,27 @@ const fs = require('fs')
 //     }
 // });
 
-fs.rm("./copy", {recursive:true}, (err)=>{
-    if (err) {
-        console.log(err, "Error in deleting directory");
-    } else {
-        console.log('Directory deleted successfully');
-    }
-});
+// fs.rm("./copy", {recursive:true}, (err)=>{
+//     if (err) {
+//         console.log(err, "Error in deleting directory");
+//     } else {
+//         console.log('Directory deleted successfully');
+//     }
+// });
+
+// fs.mkdir("./copy", {recursive:true}, (err)=>{
+//     if (err) {
+//         console.log(err, "Error in creating directory");
+//     } else {
+//         console.log('Directory created successfully');
+//     }
+// });
+
+// fs.readdir('./copy', (err, files)=>{
+//     if (err) {
+//         console.log(err, "Error in reading directory");
+//     } else {
+//         console.log('Files in directory:', files);
+//     }
+// });
+
